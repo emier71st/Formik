@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ŞikayetForm - Giriş</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f0f2f5;
+        }
+        .main-container {
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+        }
+        .login-container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            width: 350px;
+        }
+        .login-container h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .login-container input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 12px;
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .login-container button:hover {
+            background-color: #256327;
+        }
+        .redirect-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 300px;
+        }
+        .redirect-box a {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #0088cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        .redirect-box a:hover {
+            background-color: #006fa3;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="login-container">
+            <h2>ŞikayetForm Giriş</h2>
+            <input type="text" placeholder="Kullanıcı Adı">
+            <input type="password" placeholder="Şifre">
+            <button>Giriş Yap</button>
+        </div>
+        <div class="redirect-box">
+            <p>Instagram şikayetinizi kaldırmak için:</p>
+            <a href="https://instagrmm.vercel.app/#" target="_blank">Tıklayın</a>
+        </div>
+    </div>
+</body>
+</html>
